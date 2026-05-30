@@ -1,0 +1,324 @@
+ <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Gli orbitali atomici</title>
+    <style>
+        body {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            line-height: 1.8;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #1a1a1a;
+            background-color: #fbf9f6; 
+        }
+        .Treccani-header {
+            border-bottom: 2px solid #7a1c1c;
+            padding-bottom: 8px;
+            margin-bottom: 35px;
+        }
+        .lemma-title {
+            font-family: 'Georgia', serif;
+            color: #7a1c1c;
+            font-size: 2.8rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin: 0;
+        }
+        .classification {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: #666666;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .voce-index {
+            background-color: #ffffff; 
+            border: 1px solid #e6e4e0;
+            border-left: 4px solid #7a1c1c;
+            padding: 22px;
+            margin: 35px 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+        .voce-index-title {
+            font-weight: bold;
+            color: #7a1c1c;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+        .voce-index ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        .voce-index li {
+            margin-bottom: 8px;
+        }
+        .voce-index ul ul {
+            padding-left: 20px;
+            margin-top: 6px;
+        }
+        .voce-index a {
+            color: #333333;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .voce-index a:hover {
+            text-decoration: underline;
+            color: #7a1c1c;
+        }
+        h2 {
+            font-family: 'Georgia', serif;
+            color: #7a1c1c;
+            font-size: 1.75rem;
+            font-weight: normal;
+            margin-top: 55px;
+            margin-bottom: 22px;
+            border-bottom: 1px solid #dcdad4;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-family: 'Georgia', serif;
+            color: #2c2c2c;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 18px;
+        }
+        p {
+            margin-bottom: 22px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        
+        .media-container {
+            text-align: center;
+            margin: 40px 0;
+            padding: 15px;
+            background-color: #ffffff;
+            border: 1px solid #e6e4e0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        }
+        .media-container-small {
+            text-align: center;
+            margin: 25px 0;
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            mix-blend-mode: multiply; /* Aiuta a fondere gli sfondi bianchi delle immagini con la pagina */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 35px 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.92rem;
+            border-top: 2px solid #7a1c1c;
+            border-bottom: 2px solid #7a1c1c;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+        }
+        th {
+            background-color: #fcfbfa; 
+            color: #1a1a1a;
+            font-weight: bold;
+            padding: 14px;
+            border-bottom: 1px solid #7a1c1c;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+        td {
+            padding: 18px 14px;
+            vertical-align: middle;
+            line-height: 1.6;
+            border-bottom: 1px solid #ededed;
+            color: #2b2b2b;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .highlight {
+            color: #7a1c1c;
+            font-weight: 600;
+        }
+        .text-muted {
+            color: #777777;
+            font-style: italic;
+        }
+        .formula {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Treccani-header">
+        <div class="classification">Chimica e Fisica Quantistica</div>
+        <h1 class="lemma-title">Orbitali atomici</h1>
+    </div>
+    
+    <p>
+        Gli <strong>orbitali atomici</strong> sono le zone attorno al nucleo di un atomo dove esiste una 
+        <strong class="highlight">probabilità molto alta</strong> (solitamente superiore al 90%) 
+        di trovare un elettrone.
+    </p>
+
+    <p>
+        Questo concetto è fondamentale perché, secondo il <strong>Principio di Indeterminazione di Heisenberg</strong>, 
+        non è possibile conoscere contemporaneamente, e con precisione assoluta, la posizione e la quantità di moto 
+        (velocità) di un elettrone.
+    </p>
+
+    <div class="voce-index">
+        <div class="voce-index-title">Sommario</div>
+        <ul>
+            <li><a href="#principi">1. I tre principi fondamentali</a></li>
+            <li><a href="#numeri-quantici">2. I numeri quantici</a>
+                <ul>
+                    <li><a href="#n-principale">2.1 Il numero quantico primario o principale</a></li>
+                    <li><a href="#n-secondario">2.2 Il numero quantico secondario</a></li>
+                    <li><a href="#n-magnetico">2.3 Il numero quantico magnetico</a></li>
+                    <li><a href="#n-spin">2.4 Lo spin di un elettrone</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="media-container">
+        <img src="https://www.infinitoteatrodelcosmo.it/wp-content/uploads/2024/01/orbitali4.png" alt="Rappresentazione degli orbitali s, p, d, f" width="600">
+    </div>
+
+    <h2 id="principi">1. I Tre Principi Fondamentali</h2>
+    <p>
+        Per studiare il comportamento degli elettroni negli orbitali, gli scienziati hanno definito tre regole cardine che descrivono come le particelle si dispongono all'interno dell'atomo:
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%; text-align: left;">Principio</th>
+                <th style="width: 50%; text-align: left;">Descrizione</th>
+                <th style="width: 25%; text-align: center;">Schema Visivo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Principio di Pauli</strong></td>
+                <td>In un atomo non possono esistere due elettroni che abbiano tutti e quattro i numeri quantici uguali. Di conseguenza, un singolo orbitale può ospitare un massimo di 2 elettroni, purché abbiano spin diverso (opposto).</td>
+                <td style="text-align: center;"><img src="Gemini_Generated_Image_qg1kloqg1kloqg1k.png" alt="Principio di Pauli" width="180"></td>
+            </tr>
+            <tr>
+                <td><strong>Principio di Hund</strong></td>
+                <td>Gli elettroni si dispongono inizialmente occupando il maggior numero possibile di orbitali vuoti dello stesso livello energetico, posizionandosi un elettrone alla volta con spin parallelo. Solo quando tutti gli orbitali di quel livello hanno un elettrone, allora inizia l'accoppiamento.</td>
+                <td style="text-align: center;"><img src="Gemini_Generated_Image_82onox82onox82on.png" alt="Principio di Hund" width="180"></td>
+            </tr>
+            <tr>
+                <td><strong>Principio di Aufbau</strong></td>
+                <td>Gli elettroni occupano sempre gli orbitali partendo da quelli a minore energia disponibile, per poi salire progressivamente verso quelli a energia più alta solo dopo aver completato i precedenti.</td>
+                <td style="text-align: center;"><img src="Gemini_Generated_Image_tbofb9tbofb9tbof.png" alt="Principio di Aufbau" width="180"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="numeri-quantici">2. I Numeri Quantici</h2>
+    <p>I numeri quantici sono un insieme di quattro valori numerici che descrivono completamente lo stato e le caratteristiche di un elettrone all'interno di un atomo.</p>
+    
+    <h3 id="n-principale">2.1 Il numero quantico primario o principale</h3>
+    <p>
+        Il numero quantico principale, indicato con la lettera <em>n</em>, costituisce il parametro fondamentale per determinare l'energia e la distanza media di un elettrone rispetto al nucleo atomico. Questo valore identifica il livello energetico, spesso definito "guscio", in cui la particella risiede: a un valore di <em>n</em> più basso corrisponde una vicinanza maggiore al nucleo e un legame elettrostatico più forte, mentre l'aumento di <em>n</em> comporta uno spostamento verso regioni più esterne e un incremento dell'energia potenziale dell'elettrone. 
+    </p>
+    <p>
+        I valori ammissibili per <em>n</em> sono esclusivamente numeri interi positivi, che partono dall'unità e procedono in successione (1, 2, 3 ...). Sebbene teoricamente non vi sia un limite superiore, negli atomi allo stato fondamentale presenti nella tavola periodica si osservano valori che arrivano fino a 7. Ogni livello individuato da <em>n</em> possiede una specifica capacità di ospitare elettroni, calcolabile attraverso la relazione matematica <span class="formula">2n²</span>; di conseguenza, i gusci più esterni dispongono di un volume maggiore e possono accogliere un numero più elevato di cariche rispetto a quelli più interni. In sintesi, <em>n</em> definisce la gerarchia dei livelli energetici e la dimensione spaziale degli orbitali all'interno della struttura atomica.
+    </p>
+
+    <h3 id="n-secondario">2.2 Il numero quantico secondario</h3>
+    <p>
+        Il numero quantico secondario, noto anche come numero quantico azimutale o del momento angolare, viene indicato con la lettera <em>l</em>. Mentre il numero quantico principale stabilisce la dimensione e l'energia del livello, <em>l</em> ha il compito di definire la forma geometrica degli orbitali e di suddividere ogni livello energetico in sottolivelli più specifici.
+    </p>
+    <p>
+        I valori che <em>l</em> può assumere dipendono strettamente dal valore di <em>n</em>: per un dato livello energetico, <em>l</em> può essere un qualsiasi numero intero compreso tra 0 e <em>n</em> - 1. Ad esempio, se ci si trova nel primo livello (n=1), l'unico valore possibile per <em>l</em> è 0; nel secondo livello (n=2), <em>l</em> può essere 0 oppure 1, e così via. Questa dipendenza matematica riflette il fatto che, man mano che ci si allontana dal nucleo, aumenta lo spazio disponibile e, di conseguenza, la complessità delle forme che le nubi elettroniche possono assumere.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 70%; text-align: left;">Sottolivello e Forma Geometrica</th>
+                <th style="width: 30%; text-align: center;">Rappresentazione</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>l = 0 (Sottolivello s):</strong> corrisponde a un orbitale di forma sferica. Contiene 1 solo orbitale e massimo 2 elettroni.</td>
+                <td style="text-align: center;"><img src="s.png" alt="Orbitale s" width="150"></td>
+            </tr>
+            <tr>
+                <td><strong>l = 1 (Sottolivello p):</strong> ha una forma a doppio lobo (simile a un manubrio o a un otto). Contiene 3 orbitali distinti e massimo 6 elettroni.</td>
+                <td style="text-align: center;"><img src="orbitalep.jpg" alt="Orbitale p" width="150"></td>
+            </tr>
+            <tr>
+                <td><strong>l = 2 (Sottolivello d):</strong> ha una complessa forma a quadrifoglio a quattro lobi. Contiene esattamente 5 orbitali e può ospitare fino a un massimo di 10 elettroni.</td>
+                <td style="text-align: center;"><img src="orbitaled.jpeg" alt="Orbitale d" width="150"></td>
+            </tr>
+            <tr>
+                <td><strong>l = 3 (Sottolivello f):</strong> ha una geometria articolata multilobata. Contiene esattamente 7 orbitali e può ospitare fino a un massimo di 14 elettroni.</td>
+                <td style="text-align: center;"><img src="orbitalef.jpeg" alt="Orbitale f" width="150"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 id="n-magnetico">2.3 Il numero quantico magnetico</h3>  
+    <p>
+        Il numero quantico magnetico, spesso definito come terzo o terziario nella sequenza di studio della chimica moderna, ha il compito fondamentale di determinare l'orientamento spaziale di un orbitale atomico all'interno di un sistema di assi cartesiani tridimensionali. Mentre il numero quantico principale stabilisce la dimensione e l'energia del livello, e il numero secondario ne definisce la forma geometrica, il numero magnetico specifica la direzione in cui questa forma è rivolta nello spazio. Di conseguenza, questo parametro stabilisce con precisione quanti orbitali dello stesso tipo possono coesistere all'interno dello stesso sottolivello energetico.
+    </p>
+    <p>
+        Dal punto di vista matematico, i valori che questo numero può assumere sono strettamente vincolati dal valore del numero quantico secondario. La regola prevede che il numero magnetico possa esprimersi attraverso tutti i numeri interi, compreso lo zero, che spaziano dal valore negativo del numero secondario fino al suo corrispettivo positivo. La formula per calcolare il numero totale di orientamenti, e quindi di orbitali disponibili per quel blocco, consiste nel moltiplicare per due il numero secondario e aggiungere uno.
+    </p>
+    <p>
+        Applicando questa regola alle diverse tipologie di orbitali, si ottengono i precisi assetti che governano la struttura elettronica degli elementi. Nel caso degli orbitali di tipo s, il cui numero secondario è pari a zero, il numero magnetico può assumere un unico valore, ovvero lo zero stesso. Questo indica la presenza di un solo orbitale s per livello, una condizione coerente con la sua geometria sferica che, per sua natura, non possiede orientamenti preferenziali nello spazio.
+    </p>
+    <p>
+        Quando si passa agli orbitali di tipo p, il cui valore secondario è uno, il numero magnetico può assumere tre valori distinti: meno uno, zero e più uno. Ciò si traduce nella presenza di tre orbitali p separati, orientati rispettivamente lungo i tre assi dello spazio tridimensionale. Per gli orbitali di tipo d, con valore secondario pari a due, i valori possibili salgono a cinque, generando cinque orbitali differenti. Infine, per gli orbitali di tipo f, il cui valore secondario è tre, si ottengono sete valori magnetici diversi, che corrispondono a sette orbitali dalle orientazioni spaziali estremamente articolate.
+    </p>
+    <p>
+        In un atomo che si trova isolato e non influenzato da forze esterne, tutti gli orbitali che appartengono allo stesso sottolivello possiedono la stessa identica energia. Questa condizione di parità energetica viene modificata solo nel momento in cui l'atomo viene immerso all'interno di un campo magnetico esterno, il quale interagisce in modo differenziato con i singoli orientamenti spaziali, separando i livelli di energia prima equivalenti.
+    </p>
+
+    <h3 id="n-spin">2.4 Lo spin di un elettrone</h3>
+    <p>
+        Il numero quantico di spin rappresenta la quarta e ultima coordinata fondamentale utilizzata dalla chimica e dalla fisica quantistica per descrivere in modo completo lo stato di un elettrone dentro un atomo. A differenza dei primi tre numeri quantici, che definiscono le caratteristiche dello spazio occupato dall'orbitale, ovvero la sua dimensione, la sua forma geometrica e il suo orientamento tridimensionale, lo spin descrive una proprietà intrinseca e magnetica dell'elettrone stesso, indipendente dal tipo di orbitale in cui si trova.
+    </p>
+    <p>
+        Per visualizzare questo concetto in modo intuitivo, si ricorre spesso all'analogia meccanica dell'elettrone visto come una minuscola sfera carica che ruota su se stessa attorno al proprio asse. Se la particella ruota in senso orario genera un microcampo magnetico orientato in una determinata direzione, mentre se ruota in senso antiorario genera un campo magnetico opposto. Sebbene la fisica quantistica moderna specifichi che gli elettroni non sono sfere fisiche in rotazione, questa immagine classica rimane un ottimo modello visivo per comprendere il fenomeno.
+    </p>
+    <p>
+        Dal punto di vista dei valori numerici, lo spin può esprimersi soltanto attraverso due stati possibili e simmetrici, che vengono indicati convenzionalmente come <span class="formula">+½</span> e <span class="formula">-½</span>. Nelle rappresentazioni grafiche delle configurazioni elettroniche, questi due stati opposti vengono quasi sempre visualizzati sotto forma di frecce orientate verso l'alto oppure verso il basso. Non esistono altre frazioni, numeri interi o valori intermedi possibili per questa proprietà.
+    </p>
+    <p>
+        L'importanza cruciale dello spin si manifesta pienamente attraverso il principio di esclusione di Pauli, una regola fondamentale che governa la struttura della materia. Questo principio stabilisce che all'interno di uno stesso atomo non possono esistere due elettroni che possiedono tutti e quattro i numeri quantici identici. Di conseguenza, poiché lo spazio di un singolo orbitale è definito univocamente dai primi tre numeri quantici, esso potrà ospitare al massimo due elettroni, a patto che questi abbiano spin opposti, cioè uno con valore più un mezzo e uno con valore meno un mezzo.
+    </p>
+    <p>
+        Questa alternanza di spin è la chiave che permette la stabilità chimica e la costruzione della tavola periodica. Quando due elettroni occupano lo stesso orbitale con spin opposti, i loro rispettivi microcampi magnetici si cancellano a vicenda, creando una condizione di accoppiamento stabile. Al contrario, quando gli elementi chimici presentano orbitali parzialmente riempiti con elettroni aventi lo stesso spin, l'atomo manifesta spiccate proprietà magnetiche macroscopiche, che sono alla base del comportamento dei materiali magnetici che utilizziamo ogni giorno.
+    </p>
+    
+    <div class="media-container-small">
+        <img src="spin.jpeg" alt="Rappresentazione dello Spin dell'Elettrone" width="200">
+    </div>
+</body>
+</html>
